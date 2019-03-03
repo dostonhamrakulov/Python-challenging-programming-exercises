@@ -2,7 +2,8 @@
 
 
 # =========================   Question_1: ===========================================
-# Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+# Write a program which will find all such numbers which are divisible by 7 but
+# are not a multiple of 5,
 # between 2000 and 3200 (both included).
 # The numbers obtained should be printed in a comma-separated sequence on a single line.
 #
@@ -32,15 +33,17 @@ print(sorted_numbers)
 # 40320
 #
 # Hints:
-# In case of input data being supplied to the question, it should be assumed to be a console input.
+# In case of input data being supplied to the question, it should be assumed
+# to be a console input.
 
 def fact_1(x):
     b = 1
     for a in range(1, x+1):
         b *= a
     return b
-x = int(input())
-print(fact_1(x))
+print("Exercise_2: Solution_1")
+# x = int(input())
+# print(fact_1(x))
 
 
 # Solution 2:
@@ -49,20 +52,24 @@ def fact_2(x):
         return 1
     return x * fact_2(x - 1)
 
-x=int(input())
-print (fact_2(x))
+print("Exercise_2: Solution_2")
+# x=int(input())
+# print (fact_2(x))
 
 
-# =========================   Question_2: ===========================================
+# =========================   Question_3: ===========================================
 # Question:
-# With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
+# With a given integral number n, write a program to generate a dictionary that
+# contains (i, i*i) such that is an integral number between 1 and n (both included).
+# and then the program should print the dictionary.
 # Suppose the following input is supplied to the program:
 # 8
 # Then, the output should be:
 # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 #
 # Hints:
-# In case of input data being supplied to the question, it should be assumed to be a console input.
+# In case of input data being supplied to the question, it should be assumed to be a
+# console input.
 # Consider use dict()
 
 def prog_1(x):
@@ -70,4 +77,31 @@ def prog_1(x):
     for a in range(1, x+1):
         dict_[a] = a*a
     print(dict_.__str__())
-prog_1(int(input()))
+print("Exercise_3:")
+# prog_1(int(input()))
+
+# =========================   Question_4: ===========================================
+# Write a program which accepts a sequence of comma-separated numbers from console and
+# generate a list and a tuple which contains every number.
+# Suppose the following input is supplied to the program:
+# 34,67,55,33,12,98
+# Then, the output should be:
+# ['34', '67', '55', '33', '12', '98']
+# ('34', '67', '55', '33', '12', '98')
+
+# Hints:
+# In case of input data being supplied to the question, it should be assumed to be a
+# console input.
+# tuple() method can convert list to tuple
+
+print("Exercise:4")
+def prog_2():
+    x = input()
+    l = []
+    for a in x.split(","):
+        l.append(a)
+        print(x)
+    t = tuple(l)
+    print(l)
+    print(t)
+# prog_2()
