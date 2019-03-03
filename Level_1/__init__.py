@@ -105,3 +105,31 @@ def prog_2():
     print(l)
     print(t)
 # prog_2()
+
+
+# =========================   Question_5: ===========================================
+# Define a class which has at least two methods:
+# getString: to get a string from console input
+# printString: to print the string in upper case.
+# Also please include simple test function to test the class methods.
+#
+# Hints:
+# Use __init__ method to construct some parameters
+
+class Class_1:
+    def __init__(self, str_):
+        self.str_ = str_
+
+    def getString(self):
+        print("Enter string:")
+        self.str_ = input()
+        return
+    def printString(self):
+        return print(self.str_)
+
+x = Class_1("Salom, Doston")
+x.printString()
+
+
+
+
