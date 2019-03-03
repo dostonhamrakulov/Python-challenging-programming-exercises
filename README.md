@@ -1,4 +1,7 @@
-# Doston
+# Python Programming Exercise
+
+### Description:
+Here, I have been listing programming exercise in Python and they are more challenging with interesting questions for all leveled Python Programmers.
 
 
 

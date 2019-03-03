@@ -41,7 +41,7 @@ def fact_1(x):
     for a in range(1, x+1):
         b *= a
     return b
-print("Exercise_2: Solution_1")
+print("Exercise_2: Solution_1(input like 8 or 9)")
 # x = int(input())
 # print(fact_1(x))
 
@@ -52,7 +52,7 @@ def fact_2(x):
         return 1
     return x * fact_2(x - 1)
 
-print("Exercise_2: Solution_2")
+print("Exercise_2: Solution_2(input like 8 or 9)")
 # x=int(input())
 # print (fact_2(x))
 
@@ -77,7 +77,7 @@ def prog_1(x):
     for a in range(1, x+1):
         dict_[a] = a*a
     print(dict_.__str__())
-print("Exercise_3:")
+print("Exercise_3: input like 8, 7 or 9")
 # prog_1(int(input()))
 
 # =========================   Question_4: ===========================================
@@ -94,7 +94,7 @@ print("Exercise_3:")
 # console input.
 # tuple() method can convert list to tuple
 
-print("Exercise:4")
+print("Exercise:4 (input like 30,23,24,345)")
 def prog_2():
     x = input()
     l = []
