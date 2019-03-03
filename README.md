@@ -11,13 +11,15 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 
 ***Hints:***
 Consider use range(#begin, #end, #step) method:
-`numbers = range(2000, 3201)
- sorted_numbers = []
+```python
+numbers = range(2000, 3201)
+sorted_numbers = []
 
- for i in numbers:
+for i in numbers:
     if i % 7 == 0 and i % 5 != 0:
         sorted_numbers.append(i)
- print(sorted_numbers)`
+print(sorted_numbers)
+```
 
 
 
