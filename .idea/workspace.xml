@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7327e2-1674-44ca-a004-ae58673d0552" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.py" afterDir="false" />
-    </list>
+    <list default="true" id="5f7327e2-1674-44ca-a004-ae58673d0552" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+              <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="201" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -174,12 +171,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551597950766</updated>
       <workItem from="1551597956440" duration="12641000" />
-      <workItem from="1551716355651" duration="2674000" />
+      <workItem from="1551716355651" duration="2707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15315000" />
+    <option name="totallyTimeSpent" value="15348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="32" width="1318" height="736" extended-state="6" />
@@ -222,7 +219,7 @@
     <entry file="file://$PROJECT_DIR$/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="201" selection-end-column="54" />
         </state>
       </provider>
     </entry>
