@@ -243,5 +243,13 @@ In case of input data being supplied to the question, it should be assumed to be
 
 ```python
 def prog_5():
+    x = input().split(",")
+    print(x)
+    list_ = []
+    for a in x:
+        list_.append(int(a))
+    list_2 = [a for a in list_ if a % 5 == 0]
+    print(list_2)
+prog_5()
 ```
 * * *

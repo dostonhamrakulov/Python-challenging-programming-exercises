@@ -197,6 +197,33 @@ def prog_4():
     list_ = [x for x in set_]
     list_.sort()
     print(" ".join(x for x in list_))
-prog_4()
+# prog_4()
+
+
+# =========================   Question_9: ===========================================
+# Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input
+# and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are
+# to be printed in a comma separated sequence.
+# Example:
+# 0100,0011,1010,1001
+# Then the output should be:
+# 1010
+# Notes: Assume the data is input by console.
+#
+# Hints:
+# In case of input data being supplied to the question, it should be assumed to be a console input.
+
+
+def prog_5():
+    x = input().split(",")
+    print(x)
+    list_ = []
+    for a in x:
+        list_.append(int(a))
+    list_2 = [a for a in list_ if a % 5 == 0]
+    print(list_2)
+prog_5()
+
+
 
 print("=============================================")
