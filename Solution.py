@@ -175,10 +175,5 @@ def prog_3():
     list_.sort()
     str_ = ",".join(list_)
     print(list_)
-    print(str_)
     return
 
-
-print("=============================================")
-str_ = "Doston Hamrakulov"
-print(x for x in str_)
