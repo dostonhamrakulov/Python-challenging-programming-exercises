@@ -177,3 +177,8 @@ def prog_3():
     print(list_)
     print(str_)
     return
+
+
+print("=============================================")
+str_ = "Doston Hamrakulov"
+print(x for x in str_)
