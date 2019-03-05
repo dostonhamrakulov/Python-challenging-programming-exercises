@@ -257,6 +257,7 @@ Notes: Assume the data is input by console.\
 **Hints:**
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+**Solution_1:**
 ```python
 def prog_5():
     x = input().split(",")
@@ -267,5 +268,33 @@ def prog_5():
     list_2 = [a for a in list_ if a % 5 == 0]
     print(list_2)
 prog_5()
+```
+
+**Solution_2**
+```python
+value = []
+items=[x for x in raw_input().split(',')]
+for p in items:
+    intp = int(p, 2)
+    if not intp%5:
+        value.append(p)
+
+print ','.join(value)
+```
+* * *
+* * *
+
+## Question_10: ##
+**Description:**
+
+Write a program, which will find all such numbers between 1000 and 3000 (both included) such that\
+ each digit of the number is an even number.\
+The numbers obtained should be printed in a comma-separated sequence on a single line.\
+
+**Hints:**
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+```python
+code
 ```
 * * *
