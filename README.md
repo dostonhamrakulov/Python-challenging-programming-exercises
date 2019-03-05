@@ -297,6 +297,7 @@ Not these values: 2188, 2356, 2792
 **Hints:**
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+**Solution_1:**
 ```python
 def prog_6():
     n_ = []
@@ -312,5 +313,15 @@ def prog_6():
     print(n_)
     return
 prog_6()
+```
+
+**Solution_2:**
+```python
+values = []
+for i in range(1000, 3001):
+    s = str(i)
+    if (int(s[0])%2==0) and (int(s[1])%2==0) and (int(s[2])%2==0) and (int(s[3])%2==0):
+        values.append(s)
+print ",".join(values)
 ```
 * * *
