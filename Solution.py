@@ -222,7 +222,7 @@ def prog_5():
         list_.append(int(a))
     list_2 = [a for a in list_ if a % 5 == 0]
     print(list_2)
-prog_5()
+# prog_5()
 
 
 

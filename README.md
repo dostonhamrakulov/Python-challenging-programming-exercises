@@ -4,6 +4,22 @@
 Here, I have been listing programming exercise in Python and they are more challenging with interesting questions for all leveled Python Programmers.
 
 
+### Programming languages and frameworks
+```[Python]
+// Python
+```
+
+### IDE
+```[Pycharm]
+// PyCharm
+```
+
+## Author
+**Doston Hamrakulov**
+>*Software Engineer, Web Developer, Freelancer*
+
+
+
 
 
 ## Question_1: ##
