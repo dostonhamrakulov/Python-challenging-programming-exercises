@@ -295,6 +295,15 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 ```python
-code
+def prog_6():
+    x = input()
+    if int(x) < 1000 or int(x) > 3000:
+        return print("Number should be between 1000 and 3000")
+    if int(x)%2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+    return
+prog_6()
 ```
 * * *
