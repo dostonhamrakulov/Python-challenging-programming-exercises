@@ -233,15 +233,19 @@ def prog_5():
 # In case of input data being supplied to the question, it should be assumed to be a console input.
 
 def prog_6():
-    x = input()
-    if int(x) < 1000 or int(x) > 3000:
-        return print("Number should be between 1000 and 3000")
-    if int(x)%2 == 0:
-        print("Even")
-    else:
-        print("Odd")
+    n_ = []
+    str_num_ = ""
+    for a in range(1000, 3001):
+        str_num_ = str(a)
+        indicator_ = 0
+        for i in str_num_:
+            if int(i)%2 == 0:
+                indicator_ += 1
+        if indicator_ == 4:
+            n_.append(a)
+    print(n_)
     return
-# prog_6()
+prog_6()
 
 
 
