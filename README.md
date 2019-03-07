@@ -328,10 +328,25 @@ print ",".join(values)
 ## Question_11: ##
 **Description:**
 Write a Python program to get the Python version you are using
-
-
+**Solution_2:**
 ```python
 import sys
+str_ = str(sys.version_info[0]) + "." + str(sys.version_info[1]) + "." + str(sys.version_info[2])
+print("Python version: " + str_)
+# or simple
 print(sys.version_info)
+```
+* * *
+
+## Question_12: ##
+**Description:**
+Write a Python program which accepts the radius of a circle from the user and compute the area.
+**Solution_2:**
+```python
+import math
+def prog_7():
+    radius  = int(input())
+    print("Area for radius: " + str(radius) + " is " + str(math.pi * math.pow(radius, 2)))
+prog_7()
 ```
 * * *

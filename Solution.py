@@ -1,5 +1,5 @@
 import sys
-
+import math
 
 # =========================   Question_1: ===========================================
 # Write a program which will find all such numbers which are divisible by 7 but
@@ -256,7 +256,11 @@ print("Python version: " + str_)
 # or simple
 print(sys.version_info)
 
+# =========================   Question_12: ===========================================
+# Write a Python program which accepts the radius of a circle from the user and compute the area.
 
-
-
+def prog_7():
+    radius  = int(input())
+    print("Area for radius: " + str(radius) + " is " + str(math.pi * math.pow(radius, 2)))
+prog_7()
 print("=============================================")
