@@ -328,7 +328,7 @@ print ",".join(values)
 ## Question_11: ##
 **Description:**
 Write a Python program to get the Python version you are using
-**Solution_2:**
+**Solution:**
 ```python
 import sys
 str_ = str(sys.version_info[0]) + "." + str(sys.version_info[1]) + "." + str(sys.version_info[2])
@@ -341,12 +341,56 @@ print(sys.version_info)
 ## Question_12: ##
 **Description:**
 Write a Python program which accepts the radius of a circle from the user and compute the area.
-**Solution_2:**
+**Solution:**
 ```python
 import math
 def prog_7():
     radius  = int(input())
     print("Area for radius: " + str(radius) + " is " + str(math.pi * math.pow(radius, 2)))
 prog_7()
+```
+* * *
+
+## Question_13: ##
+**Description:**
+Write a Python program which accepts a string and return as reverse order:
+
+**Solution_1:**
+```python
+str_ = "Doston"
+print("----- Reversing string using FOR loop -------")
+s = ""
+for x in str_:
+    s = x + s
+print("Orginal: " + str_)
+print("reversed: " + s)
+```
+**Solution_2:**
+```python
+str_ = "Doston"
+def reverse_1(string):
+    string = string[::-1]
+    return string
+print("Orginal: " + str_)
+print("reversed: " + reverse_1(str_))
+```
+**Solution_3:**
+```python
+str_ = "Doston"
+def reverse_2(string):
+    string = "".join(reversed(string))
+    return string
+print("Orginal: " + str_)
+print("reversed: " + reverse_2(str_))
+```
+* * *
+
+## Question_14: ##
+**Description:**
+Write a Python program which accepts a string and return as reverse order:
+
+**Solution_2:**
+```python
+code
 ```
 * * *

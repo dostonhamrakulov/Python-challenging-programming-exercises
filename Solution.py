@@ -262,5 +262,35 @@ print(sys.version_info)
 def prog_7():
     radius  = int(input())
     print("Area for radius: " + str(radius) + " is " + str(math.pi * math.pow(radius, 2)))
-prog_7()
+# prog_7()
+
+
+# =========================   Question_13: ===========================================
+# Write a Python program which accepts a string and return as reverse order:
+
+str_ = "Doston"
+print("----- Reversing string using FOR loop -------")
+s = ""
+for x in str_:
+    s = x + s
+print("Orginal: " + str_)
+print("reversed: " + s)
+
+print("----- Reversing string using a function_ 1 -------")
+def reverse_1(string):
+    string = string[::-1]
+    return string
+print("Orginal: " + str_)
+print("reversed: " + reverse_1(str_))
+
+print("----- Reversing string using RECERSED function -------")
+def reverse_2(string):
+    string = "".join(reversed(string))
+    return string
+print("Orginal: " + str_)
+print("reversed: " + reverse_2(str_))
+
+
+
+
 print("=============================================")
