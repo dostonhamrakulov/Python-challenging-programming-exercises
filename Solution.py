@@ -1,4 +1,4 @@
-
+import sys
 
 
 # =========================   Question_1: ===========================================
@@ -247,6 +247,14 @@ def prog_6():
     return
 prog_6()
 
+
+# =========================   Question_11: ===========================================
+# Write a Python program to get the Python version you are using
+
+str_ = str(sys.version_info[0]) + "." + str(sys.version_info[1]) + "." + str(sys.version_info[2])
+print("Python version: " + str_)
+# or simple
+print(sys.version_info)
 
 
 
