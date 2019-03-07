@@ -340,7 +340,11 @@ print(sys.version_info)
 
 ## Question_12: ##
 **Description:**
-Write a Python program which accepts the radius of a circle from the user and compute the area.
+Write a Python program which accepts the radius of a circle from the user and compute the area.\
+Output:
+* r = 1.1
+* Area = 3.8013271108436504
+
 **Solution:**
 ```python
 import math
@@ -387,10 +391,18 @@ print("reversed: " + reverse_2(str_))
 
 ## Question_14: ##
 **Description:**
-Write a Python program which accepts a string and return as reverse order:
-
-**Solution_2:**
+Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.\
+Output : 
+* List : ['3', ' 5', ' 7', ' 23'] 
+* Tuple : ('3', ' 5', ' 7', ' 23')
+**Solution_1:**
 ```python
-code
+def prog_8():
+    x = input()
+    list_ = list(x.split(","))
+    tuple_ = tuple(x.split(","))
+    print(list_)
+    print(tuple_)
+prog_8()
 ```
 * * *

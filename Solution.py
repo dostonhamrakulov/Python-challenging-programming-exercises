@@ -291,6 +291,15 @@ print("Orginal: " + str_)
 print("reversed: " + reverse_2(str_))
 
 
+# =========================   Question_13: ===========================================
+# Write a Python program which accepts a sequence of comma-separated numbers from user and generate
+# a list and a tuple with those numbers.
 
-
+def prog_8():
+    x = input()
+    list_ = list(x.split(","))
+    tuple_ = tuple(x.split(","))
+    print(list_)
+    print(tuple_)
+prog_8()
 print("=============================================")
