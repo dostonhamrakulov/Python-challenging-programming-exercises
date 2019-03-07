@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f7327e2-1674-44ca-a004-ae58673d0552" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_exercises$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1551626789160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Level_1" />
-    <SUITE FILE_PATH="coverage/Python_exercises$Solution.coverage" NAME="Solution Coverage Results" MODIFIED="1551995549007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_exercises$Solution.coverage" NAME="Solution Coverage Results" MODIFIED="1551995830161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="301" column="30" lean-forward="true" selection-start-line="301" selection-start-column="30" selection-end-line="301" selection-end-column="30" />
+            <state relative-caret-position="249">
+              <caret line="297" selection-start-line="297" selection-end-line="303" selection-end-column="8" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -160,15 +159,16 @@
       <workItem from="1551716355651" duration="4585000" />
       <workItem from="1551818476947" duration="2208000" />
       <workItem from="1551949214453" duration="38000" />
-      <workItem from="1551993258297" duration="2205000" />
+      <workItem from="1551993258297" duration="2517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21677000" />
+    <option name="totallyTimeSpent" value="21989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="32" width="1308" height="736" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23375595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -206,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="301" column="30" lean-forward="true" selection-start-line="301" selection-start-column="30" selection-end-line="301" selection-end-column="30" />
+        <state relative-caret-position="249">
+          <caret line="297" selection-start-line="297" selection-end-line="303" selection-end-column="8" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

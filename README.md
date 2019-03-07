@@ -395,7 +395,7 @@ Write a Python program which accepts a sequence of comma-separated numbers from 
 Output : 
 * List : ['3', ' 5', ' 7', ' 23'] 
 * Tuple : ('3', ' 5', ' 7', ' 23')
-**Solution_1:**
+**Solution:**
 ```python
 def prog_8():
     x = input()
@@ -406,3 +406,18 @@ def prog_8():
 prog_8()
 ```
 * * *
+
+## Question_15: ##
+**Description:**
+Write a Python program to display the first and last colors from the following list 
+* color_list = ["Red","Green","White" ,"Black"]
+
+**Solution:**
+```python
+color_list = ["Red","Green","White" ,"Black"]
+print(color_list[0])
+print(color_list[len(color_list)-1])
+```
+* * *
+
+

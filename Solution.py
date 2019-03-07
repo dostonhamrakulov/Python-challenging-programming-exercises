@@ -301,5 +301,11 @@ def prog_8():
     tuple_ = tuple(x.split(","))
     print(list_)
     print(tuple_)
-prog_8()
+# prog_8()
+
+# =========================   Question_13: ===========================================
+# Write a Python program to display the first and last colors from the following list
+color_list = ["Red","Green","White" ,"Black"]
+print(color_list[0])
+print(color_list[len(color_list)-1])
 print("=============================================")
