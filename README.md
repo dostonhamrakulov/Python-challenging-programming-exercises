@@ -432,7 +432,20 @@ Then, the output should be:
 
 **Solution:**
 ```python
-code
-here we will write code
+def prog_9():
+    # x = input()
+    x = "add230"
+    int_n = 0
+    str_n = 0
+
+    for a in x:
+        if a.isalpha():
+            str_n +=1
+        else:
+            int_n +=1
+    print("LETTERS: " + str(str_n))
+    print("DIGITS: " + str(int_n))
+    return
+prog_9()
 ```
 * * *
