@@ -6,12 +6,12 @@ Here, I have been listing programming exercise in Python and they are more chall
 
 ### Programming languages and frameworks
 ```[Python]
-// Python
+Python
 ```
 
 ### IDE
 ```[Pycharm]
-// PyCharm
+PyCharm
 ```
 
 ## Author
