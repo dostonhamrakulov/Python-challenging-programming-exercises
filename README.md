@@ -449,3 +449,5 @@ def prog_9():
 prog_9()
 ```
 * * *
+
+**Enjoy open-source community**
