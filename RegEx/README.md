@@ -53,3 +53,18 @@ Answer: c
 Explanation: It converts a given string into a pattern object.
 ```
 * * *
+
+## Question_2: What does the function re.match do? ##
+Question:
+```python
+a) matches a pattern at the start of the string
+b) matches a pattern at any position in the string
+c) such a function does not exist
+d) none of the mentioned
+```
+Answer:
+```python
+Answer: a
+Explanation: It will look for the pattern at the beginning and return None if it isn’t found.
+```
+* * *
