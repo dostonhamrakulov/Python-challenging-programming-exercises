@@ -22,16 +22,34 @@ PyCharm
 
 
 
+## This set of Python Multiple Choice Questions & Answers (MCQs) focuses on “Regular Expressions”.
 
-
-## Question_1: ##
-**Description:**
-
-
-***Hints:***
-Consider use range(#begin, #end, #step) method.
-
+## Question_1: Which module in Python supports regular expressions? ##
+Question:
 ```python
-code
+a) re
+b) regex
+c) pyregex
+d) none of the mentioned
+```
+Answer:
+```python
+Answer: a
+Explanation: re is a part of the standard library and can be imported using: import re.
+```
+* * *
+
+## Question_2: Which of the following creates a pattern object? ##
+Question:
+```python
+a) re.create(str)
+b) re.regex(str)
+c) re.compile(str)
+d) re.assemble(str)
+```
+Answer:
+```python
+Answer: c
+Explanation: It converts a given string into a pattern object.
 ```
 * * *
