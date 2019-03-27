@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f7327e2-1674-44ca-a004-ae58673d0552" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegEx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/RegEx/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="446">
               <caret line="334" column="10" selection-start-line="334" selection-start-column="10" selection-end-line="334" selection-end-column="10" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RegEx/RegEx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -57,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/Level_1/__init__.py" />
         <option value="$PROJECT_DIR$/Solution.py" />
+        <option value="$PROJECT_DIR$/RegEx/RegEx.py" />
       </list>
     </option>
   </component>
@@ -74,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,13 +92,20 @@
               <item name="Python_exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_exercises" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python_exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="RegEx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -176,17 +193,18 @@
       <workItem from="1552062036963" duration="536000" />
       <workItem from="1552246077948" duration="1394000" />
       <workItem from="1552331024411" duration="1433000" />
+      <workItem from="1553725464359" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26014000" />
+    <option name="totallyTimeSpent" value="26065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="32" width="1308" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24722663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25118858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,11 +240,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="446">
           <caret line="334" column="10" selection-start-line="334" selection-start-column="10" selection-end-line="334" selection-end-column="10" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegEx/RegEx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
