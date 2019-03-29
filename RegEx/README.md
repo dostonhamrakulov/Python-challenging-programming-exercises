@@ -54,7 +54,7 @@ Explanation: It converts a given string into a pattern object.
 ```
 * * *
 
-## Question_2: What does the function re.match do? ##
+## Question_3: What does the function re.match do? ##
 Question:
 ```python
 a) matches a pattern at the start of the string
@@ -66,5 +66,40 @@ Answer:
 ```python
 Answer: a
 Explanation: It will look for the pattern at the beginning and return None if it isn’t found.
+```
+* * *
+
+## Question_4: What is the output of the following? ##
+Question:
+```python
+sentence = 'we are humans'
+matched = re.match(r'(.*) (.*?) (.*)', sentence)
+print(matched.groups())
+```
+
+```python
+a) (‘we’, ‘are’, ‘humans’)
+b) (we, are, humans)
+c) (‘we’, ‘humans’)
+d) ‘we are humans’
+```
+Answer:
+```python
+Answer: a
+Explanation: This function returns all the subgroups that have been matched
+```
+* * *
+## Question_5: What does the function re.search do? ##
+Question:
+```python
+a) matches a pattern at the start of the string
+b) matches a pattern at any position in the string
+c) such a function does not exist
+d) none of the mentioned
+```
+Answer:
+```python
+Answer: b
+Explanation: It will look for the pattern at any position in the string.
 ```
 * * *

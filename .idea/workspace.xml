@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Solution.py" line="309" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7327e2-1674-44ca-a004-ae58673d0552" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegEx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/RegEx/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="5f7327e2-1674-44ca-a004-ae58673d0552" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,12 +190,12 @@
       <workItem from="1552062036963" duration="536000" />
       <workItem from="1552246077948" duration="1394000" />
       <workItem from="1552331024411" duration="1433000" />
-      <workItem from="1553725464359" duration="51000" />
+      <workItem from="1553725464359" duration="727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26065000" />
+    <option name="totallyTimeSpent" value="26741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="32" width="1308" height="736" extended-state="6" />
