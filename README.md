@@ -3,15 +3,17 @@
 ### Description:
 Here, I have been listing programming exercise in Python and they are more challenging with interesting questions for all leveled Python Programmers.
 
+**RegEx** folder includes the set of Python Multiple Choice Questions & Answers (MCQs) focuses on “Regular Expressions”
+
 
 ### Programming languages and frameworks
-```[Python]
+```python
 Python
 ```
 
 ### IDE
-```[Pycharm]
-PyCharm
+```python
+PyCharm, Vim
 ```
 
 ## Author
