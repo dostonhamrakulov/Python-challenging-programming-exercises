@@ -103,3 +103,25 @@ Answer: b
 Explanation: It will look for the pattern at any position in the string.
 ```
 * * *
+
+## Question_6: What is the output of the following? ##
+Question:
+```python
+sentence = 'horses are fast'
+regex = re.compile('(?P<animal>\w+) (?P<verb>\w+) (?P<adjective>\w+)')
+matched = re.search(regex, sentence)
+print(matched.groupdict())
+```
+s
+```python
+a) {‘animal’: ‘horses’, ‘verb’: ‘are’, ‘adjective’: ‘fast’}
+b) (‘horses’, ‘are’, ‘fast’)
+c) ‘horses are fast’
+d) ‘are’
+```
+Answer:
+```python
+Answer: a
+Explanation: This function returns a dictionary that contains all the matches.
+```
+* * *
